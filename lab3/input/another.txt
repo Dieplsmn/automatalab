@@ -1,0 +1,70 @@
+INT a[1,2,3] ; BOOL b[1,2,3]
+true
+1123
+BOX
+a[0,1,0] <= 252
+a[0,1,1] <= 876
+a[0,1,2] <= 142
+
+a[0,1,1]
+
+a[0,1,0] <= -a[0,1,0]
+a[0,1,0] <= 2 + a[0,1,0]
+a[0,1,0]
+1 & 0
+0 | 1
+0 | -5
+!!!1
+
+
+print
+go down
+pick right
+print
+drop left
+print
+go up
+print
+
+a[0,1,0] <= 0
+a[0,1,1] <= 10
+
+INT c[1]
+c[0] <= 2 + 5
+
+function check
+a[0,1,0] += 1
+a[0,1,1] <= 2
+a[0,1,2] <= 3 + c[0]
+end
+
+
+
+if 2 less 1 do check
+a[0,1,0]
+a[0,1,1]
+a[0,1,2]
+
+if 1 less 2 do check
+a[0,1,0]
+a[0,1,1]
+a[0,1,2]
+
+do check
+a[0,1,0]
+
+go left
+go left
+go up
+
+function gogogo
+go right
+end
+
+print
+
+look right
+put lres
+
+from a[0,1,0] to 6 with step true do gogogo
+print
